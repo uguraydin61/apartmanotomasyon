@@ -110,6 +110,7 @@
             this.button1.TabIndex = 4;
             this.button1.Text = "Ekle";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // dateTimePicker1
             // 
@@ -178,6 +179,7 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "Giderler";
             this.Text = "Giderler";
+            this.Load += new System.EventHandler(this.Giderler_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

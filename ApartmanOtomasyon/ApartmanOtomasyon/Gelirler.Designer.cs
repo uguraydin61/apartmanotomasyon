@@ -67,6 +67,7 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "Ekle";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // numericUpDown1
             // 
@@ -151,6 +152,7 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "Gelirler";
             this.Text = "Gelirler";
+            this.Load += new System.EventHandler(this.Gelirler_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
